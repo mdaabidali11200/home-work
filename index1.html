@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2;
+        }
+        .header{
+            padding: 70px;
+            text-align: center;
+            background: rgb(230, 9, 9);
+            color:white(7, 200, 248);
+        }
+        .header h1{
+            font-size: 50px;
+        }
+        .navbar{
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar a{
+             float: left;
+             display: block;
+             color:white
+             text-align: center;
+             padding: 14px 20px;
+             text-decoration: none;
+         }
+         .navbar a.right{
+             float: right;
+         }
+         .navbar a:hover{
+             background-color: white;
+             color: black;
+         }
+         .row{
+             display: -ms-flexbox;
+             display: flex;
+             -ms-flex-wrap: wrap;
+             flex-wrap: wrap;
+         }
+         .side{
+             -ms-flex: 30%;
+             flex: 30%;
+             background-color: blanchedalmond;
+             padding: 20px;            
+         }
+         .main{
+             -ms-flex: 70px;
+             flex: 70%;
+             background-color: #dddddd(233, 27, 27);
+             padding: 20px;
+         }
+         .fakeimg{
+             padding: 20px;
+             text-align: center;
+             background: rgb(94, 247, 6);
+         }
+         .footer{
+             padding: 20px;
+             text-align: center;
+             background: rgb(29, 4, 248);
+             width: 100%;
+         }
+         
+                
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1> My Website</h1>
+        <p> A Website Creat By Me.</p>
+    </div>
+    <div class="navbar">
+        <a href="#">Nav1</a>
+        <a href="#">Nav2</a>
+        <a href="#">Nav3</a>
+        <a href="#" class="right">Nav4</a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>My Photo</h5>
+            <div class="fakeimg" style="height: 200px;">image</div>
+            <p>hii gayes to aap sab kaise ho mere naam hai md aabid ali</p>
+            <h3> More text </h3>
+            <p>hii gayes to aap sab kaise ho mere naam hai md aabid ali </p>
+            <div class="fakeimg" style="height: 60px;">image</div><br>
+            <div class="fakeimg" style="height: 60px;">image</div><br>
+            <div class="fakeimg" style="height: 60px;">image</div>
+        </div>     
+        <div class="main">
+            <h2>Title Heading</h2>
+            <h5> Title Dscription</h5>
+        </div>
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+</html>
